@@ -1,0 +1,30 @@
+#certifications {
+    padding: 3rem 1.5rem;
+    background-color: #e8f5e9;
+    text-align: center;
+}
+
+#certifications h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+.certificate-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.certificate-grid img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.certificate-grid img:hover {
+    transform: scale(1.1);
+}
