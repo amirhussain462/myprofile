@@ -1,12 +1,86 @@
 [
-    { "name": "Project Lifestyle Management" },
-    { "name": "Lean Six Sigma Expertise" },
-    { "name": "Equipment Installation and Commissioning" },
-    { "name": "Advanced Troubleshooting and Maintenance" },
-    { "name": "Client Relationship Management" },
-    { "name": "Leadership and Team Management" },
-    { "name": "Occupational Health and Safety" },
-    { "name": "Technical Documentation and Interpretation" },
-    { "name": "Inventory Optimization" },
-    { "name": "Quality Control and Assurance" }
+    {
+        "name": "Project Lifecycle Management",
+        "scenario": "Managed end-to-end project lifecycle for DHL Riyadh and Dammam, including requirements gathering, system design, installation, commissioning, and maintenance. Utilized 5S methodology for inventory optimization, reducing costs by 15% and improving operational efficiency."
+    },
+    {
+        "name": "Lean Six Sigma Methodologies",
+        "scenario": "Implemented Lean Six Sigma principles to optimize processes, including DMAIC (Define, Measure, Analyze, Improve, Control) for spare parts management. Achieved a 20% reduction in downtime and 15% cost savings through root cause analysis and process improvements."
+    },
+    {
+        "name": "Automated System Installation and Commissioning",
+        "scenario": "Led the installation and commissioning of automated systems, including ASRS (Automated Storage and Retrieval Systems) and conveyor systems. Ensured seamless integration of hardware and software components, achieving a 30% improvement in system efficiency."
+    },
+    {
+        "name": "Advanced Diagnostics and Troubleshooting",
+        "scenario": "Utilized diagnostic tools and techniques to troubleshoot PLCs, HMIs, and SCADA systems. Reduced mean time to repair (MTTR) by 25% through systematic fault identification and resolution."
+    },
+    {
+        "name": "Preventive and Predictive Maintenance",
+        "scenario": "Developed and executed preventive maintenance schedules for automated material handling systems, ensuring 98-99% uptime. Implemented predictive maintenance strategies using IoT sensors and data analytics to minimize unplanned downtime."
+    },
+    {
+        "name": "PLC Programming and Automation",
+        "scenario": "Programmed Siemens S7-300 PLCs using Ladder Logic and structured text. Optimized automation cycles, reducing cycle time by 10% and improving system reliability."
+    },
+    {
+        "name": "SCADA and HMI Configuration",
+        "scenario": "Configured and maintained SCADA systems using WINCC and other HMI platforms. Enhanced data acquisition and process monitoring, improving system visibility and control."
+    },
+    {
+        "name": "System Integration and Interfacing",
+        "scenario": "Integrated diverse hardware components, including sensors, actuators, and controllers, with material handling systems. Ensured seamless communication between subsystems using industrial protocols like Profibus and Modbus."
+    },
+    {
+        "name": "Root Cause Analysis (RCA)",
+        "scenario": "Conducted RCA for recurring system faults, identifying and resolving issues such as motor failures, conveyor jams, and sensor malfunctions. Reduced downtime by 15% through targeted corrective actions."
+    },
+    {
+        "name": "Industrial Safety and Compliance",
+        "scenario": "Ensured compliance with OSHA, ISO 45001, and other safety standards. Conducted risk assessments, safety audits, and training sessions, achieving zero incidents across multiple projects."
+    },
+    {
+        "name": "Client-Centric Solutions",
+        "scenario": "Delivered tailored automation solutions to meet client-specific requirements, including custom conveyor layouts, storage systems, and control algorithms. Improved client satisfaction by 95% through proactive engagement and timely delivery."
+    },
+    {
+        "name": "Cross-Functional Team Leadership",
+        "scenario": "Led multidisciplinary teams of engineers, technicians, and contractors to deliver complex automation projects on time and within budget. Improved team productivity by 20% through effective communication and task delegation."
+    },
+    {
+        "name": "Inventory and Spare Parts Management",
+        "scenario": "Implemented 5S and Kanban systems for spare parts management, reducing inventory costs by 15% and ensuring timely availability of critical components."
+    },
+    {
+        "name": "Motor Control and Inverter Configuration",
+        "scenario": "Configured and optimized VFDs (Variable Frequency Drives) and motor inverters for precise speed and torque control. Improved motor efficiency by 10% and reduced energy consumption."
+    },
+    {
+        "name": "Material Handling Systems Expertise",
+        "scenario": "Specialized in the maintenance and optimization of AGVs (Automated Guided Vehicles), monorails, and bin conveyor systems. Achieved 99% uptime through proactive maintenance and system upgrades."
+    },
+    {
+        "name": "Technical Documentation and Reporting",
+        "scenario": "Prepared detailed technical documentation, including system manuals, maintenance logs, and SOPs. Improved knowledge transfer and reduced onboarding time for new technicians by 30%."
+    },
+    {
+        "name": "End-User Training and Knowledge Transfer",
+        "scenario": "Conducted training sessions for end-users on system operation, maintenance, and safety protocols. Enhanced user competency and reduced operational errors by 25%."
+    },
+    {
+        "name": "Cost Optimization and Budget Management",
+        "scenario": "Identified cost-saving opportunities through process optimization and vendor negotiations. Reduced project costs by 15% while maintaining quality standards."
+    },
+    {
+        "name": "Electrical and Control Systems Maintenance",
+        "scenario": "Performed maintenance and repairs on electrical panels, control cabinets, and wiring systems. Improved system reliability and reduced downtime by 20%."
+    },
+    {
+        "name": "IoT and Industry 4.0 Integration",
+        "scenario": "Implemented IoT-enabled sensors and data analytics for predictive maintenance and real-time monitoring. Enhanced system performance and reduced maintenance costs by 15%."
+    },
+    {
+        "name": "Vendor and Contractor Management",
+        "scenario": "Collaborated with third-party vendors and contractors for equipment procurement, installation, and maintenance. Ensured compliance with project timelines and quality standards."
+    }
 ]
