@@ -11,23 +11,34 @@ document.querySelectorAll('nav a').forEach(anchor => {
 });
 
 // Dynamic Content Loading (Example: Skills)
-fetch('data/skills.json') // Load skills data from JSON file
-    .then(response => response.json()) // Parse JSON
+// Load Skills from JSON
+fetch('data/skills.json') // Fetch the skills data
+    .then(response => response.json()) // Parse the JSON
     .then(data => {
-        const skillsGrid = document.querySelector('.skills-grid'); // Find the skills grid
+        const skillsGrid = document.querySelector('.skills-grid'); // Get the skills grid container
         if (skillsGrid) {
-            skillsGrid.innerHTML = ''; // Clear existing content
+            skillsGrid.innerHTML = ''; // Clear any existing content
             data.forEach(skill => {
-                // Create a new skill item
-                const skillItem = document.createElement('div');
-                skillItem.classList.add('skill-item');
-                skillItem.textContent = skill.name;
-                skillsGrid.appendChild(skillItem); // Add skill to the grid
+                // Create a skill card
+                const skillCard = document.createElement('div');
+                skillCard.classList.add('skill-card');
+
+                // Add skill name
+                const skillName = document.createElement('h3');
+                skillName.textContent = skill.name;
+                skillCard.appendChild(skillName);
+
+                // Add skill scenario
+                const skillScenario = document.createElement('p');
+                skillScenario.textContent = skill.scenario;
+                skillCard.appendChild(skillScenario);
+
+                // Append the skill card to the grid
+                skillsGrid.appendChild(skillCard);
             });
         }
     })
     .catch(error => console.error('Error loading skills data:', error));
-
 // Form Submission Handling
 const contactForm = document.getElementById('contact-form'); // Find the contact form
 if (contactForm) {
