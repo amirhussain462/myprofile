@@ -1,31 +1,44 @@
 #skills {
     padding: 3rem 1.5rem;
-    background-color: #f1f8e9;
-    color: #2e7d32;
+    background-color: #f1f8e9; /* Light green background */
+    color: #2e7d32; /* Dark green text */
 }
 
 #skills h2 {
     font-size: 2.2rem;
     margin-bottom: 2rem;
+    text-align: center;
+    color: #1b5e20; /* Darker green for heading */
 }
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
     gap: 1.5rem;
 }
 
-.skill-item {
+.skill-card {
     padding: 1.5rem;
-    background-color: #ffffff;
-    border: 2px solid #aed581;
+    background-color: #ffffff; /* White background for cards */
+    border: 2px solid #aed581; /* Light green border */
     border-radius: 10px;
-    text-align: center;
-    font-size: 1.1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.skill-item:hover {
-    transform: scale(1.1);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+.skill-card:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.skill-card h3 {
+    font-size: 1.5rem;
+    color: #1b5e20; /* Dark green for skill name */
+    margin-bottom: 1rem;
+}
+
+.skill-card p {
+    font-size: 1rem;
+    color: #555; /* Dark gray for scenario text */
+    line-height: 1.6;
 }
